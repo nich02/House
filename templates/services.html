@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Value You Property</h1>
+    <p>Please fill in this property valuation form to get your present house value.</p>
+    <hr>
+
+    <label for="LotArea"><b>LotArea</b></label>
+    <input type="text" placeholder="Enter LotArea" name="LotArea" id="LotArea" required>
+    
+    <label for="MasVnrArea"><b>LotArea</b></label>
+    <input type="text" placeholder="Enter MasVnrArea" name="MasVnrArea" id="MasVnrArea" required>
+    
+    <label for="BsmtUnfSF"><b>BsmtUnfSF</b></label>
+    <input type="text" placeholder="Enter MasVnrArea" name="MasVnrArea" id="MasVnrArea" required>
+
+    <label for="TotalBsmtSF"><b>TotalBsmtSF</b></label>
+    <input type="text" placeholder="Enter MasVnrArea" name="MasVnrArea" id="MasVnrArea" required>
+
+    <label for="1stFlrSF"><b>1stFlrSF</b></label>
+    <input type="text" placeholder="Enter 1stFlrSF Size" name="1stFlrSF" id="1stFlrSF" required>
+
+    <label for="2ndFlrSF"><b>2ndFlrSF</b></label>
+    <input type="text" placeholder="Enter 2ndFlrSF Size" name="2ndFlrSF" id="2ndFlrSF" required>
+
+    <label for="GrLivArea"><b>GrLivArea</b></label>
+    <input type="text" placeholder="Enter GrLivArea Size" name="GrLivArea" id="GrLivArea" required>
+
+    <label for="GarageArea"><b>GarageArea</b></label>
+    <input type="text" placeholder="Enter GarageArea Size" name="GarageArea" id="GarageArea" required>
+
+    <label for="WoodDeckSF"><b>WoodDeckSF</b></label>
+    <input type="text" placeholder="Enter WoodDeck Size" name="WoodDeckSF" id="WoodDeckSF" required>
+
+    <label for="OpenPorchSF"><b>OpenPorchSF</b></label>
+    <input type="text" placeholder="Enter OpenPorch Size" name="OpenPorchSF" id="OpenPorchSF" required>
+
+    <button type="Get you valuation" class="registerbtn">Property Value</button>
+  </div>
+</form>
+
+</body>
+</html>
